@@ -1,0 +1,16 @@
+[ 2023-08-03 15:59:32,231 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-03 15:59:32,241 ] 187 werkzeug - INFO -  * Debugger PIN: 121-043-620
+[ 2023-08-03 15:59:36,128 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:36] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-03 15:59:36,150 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2023-08-03 15:59:36,161 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:36] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-08-03 15:59:39,394 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-03 15:59:39,447 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:39] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-08-03 15:59:39,489 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:39] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-03 15:59:39,611 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:39] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-08-03 15:59:39,681 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:39] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-03 15:59:46,215 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:46] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-03 15:59:46,242 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:46] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2023-08-03 15:59:46,250 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 15:59:46] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-08-03 16:00:54,375 ] 186 root - INFO - predictions completed. 
+[ 2023-08-03 16:00:54,376 ] 48 root - INFO - prediction completed. Downloading prediction file.
+[ 2023-08-03 16:00:54,399 ] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 16:00:54] "POST /predict HTTP/1.1" 200 -

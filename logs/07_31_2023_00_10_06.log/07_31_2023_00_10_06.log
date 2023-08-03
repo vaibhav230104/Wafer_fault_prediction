@@ -1,0 +1,3 @@
+[ 2023-07-31 00:10:08,117 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-31 00:10:08,133 ] 187 werkzeug - INFO -  * Debugger PIN: 121-043-620
+[ 2023-07-31 00:12:25,826 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\91902\\desktop\\wafer_fault\\application.py', reloading
